@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<title>Checklisty</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<div class=container><div class=row>
+<div class=jumbotron>
+    <div class="page-header">
+        <h1>Checklisty <small><script>document.write((new Date).toLocaleDateString())</script></small></h1>
+    </div>
+</div>
+
+<h2>Codziennie</h2>
+<ul class="list-unstyled">
+
+    <li class=checkbox><label><input type=checkbox>
+    Czy jesteś punktualny (w pracy, na statusach, na spotkaniach)?
+
+    <li class=checkbox><label><input type=checkbox>
+    Czy wykonujesz prace zgodnie z weekly?
+    
+    <li class=checkbox><label><input type=checkbox>
+    Czy poinformowałeś team (projektowy i IT) o nieobecnościach, urlopach, wcześniejszych wyjściach itp. na Slacku lub face to face?
+    
+    <li class=checkbox><label><input type=checkbox>
+    Czy dostałeś wszystkie zadania do realiazacji na czas? W przypadku braku poinformuj Project Ownera lub swojego przełożonego.
+
+    <li class=checkbox><label><input type=checkbox>
+    Masz wolny czas? Czy sprawdziłeś czy są zadania na IT Mainteneance? W przypadku braku zadań poinformuj Project Ownera lub swojego przełożonego.
+
+    <li class=checkbox><label><input type=checkbox>
+    Czy pracujesz zgodnie z wartościami IT?
+
+    <li class=checkbox><label><input type=checkbox>
+    Widzisz, że można zrobić coś lepiej? Czy dałeś feedback osobom, których to dotyczy?
+
+    <li class=checkbox><label><input type=checkbox>
+    Zmieniałeś komponent? Generyczny kod? Robiłeś refaktor? Czy przetestowałeś wszystkie miejsca gdzie zmieniony kod występuje?
+
+    <li class=checkbox><label><input type=checkbox>
+    Czy wypełniasz timesheet?
+
+</ul>
+
+<h2>Przed projektem</h2>
+<ul class="list-unstyled">
+
+    <li class=checkbox><label><input type=checkbox>
+    Czy znasz swój zespół i role osób zaangażowanych w projekt/zadanie?
+
+    <li class=checkbox><label><input type=checkbox>
+    Czy wiesz co masz zrobic i po co masz to zrobic? (wyjasnij wszelkie niejasności)
+
+    <li class=checkbox><label><input type=checkbox>
+    Czy wykonałeś analizę zadania pod kątem wykonalności i corner casow?
+
+    <li class=checkbox><label><input type=checkbox>
+    Czy masz zadanie w Jira z opisem?
+
+    <li class=checkbox><label><input type=checkbox>
+    Czy masz wszystkie materiały?
+
+    <li class=checkbox><label><input type=checkbox>
+    Czy znasz deadline swoich prac? Jeśli uważasz, że zajmą dłużej niż założony czas, poinformuj o tym Project Ownera.
+
+</ul>
+
+<h2>W trakcie projektu</h2>
+<ul class="list-unstyled">
+
+    <li class=checkbox><label><input type=checkbox>
+    Widzisz, że zadanie zajmie dłużej? Czy poinformowałeś o tym Project Ownera?
+
+    <li class=checkbox><label><input type=checkbox>
+    Czy przygotowałeś się na codzienny status?
+
+    <li class=checkbox><label><input type=checkbox>
+    Czy wysłałeś swój kod na review?
+
+    <li class=checkbox><label><input type=checkbox>
+    Czy wykonałeś code review dla kogoś z teamu?
+
+    <li class=checkbox><label><input type=checkbox>
+    Czy weryfikujesz swoją pracę z osobą ze Studia/UX?
+
+    <li class=checkbox><label><input type=checkbox>
+    Czy zakończyłeś zadanie sprawdzeniem Definition of done?
+
+</ul>
+
+<h2>Po projekcie</h2>
+<ul class="list-unstyled">
+
+    <li class=checkbox><label><input type=checkbox>
+    Czy byłeś na spotkaniu podsumowującym?
+
+    <li class=checkbox><label><input type=checkbox>
+    Czy przygotowałeś listę potencjalnych usprawnień w procesie / współpracy / technice realizacji?
+
+</ul>
+
+<style>@media print { button { display: none !important } }</style>
+<button class="btn btn-default btn-lg" onclick="print()">Drukuj
